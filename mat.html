@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Alunos IF campus Ibiruba</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- css --->
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <link rel="stylesheet" href="diciple.css">
+  <link rel="stylesheet" href="css/full-slider.css">
+  <link rel="stylesheet" href="css/pgwslideshow.css">
+
+</head>
+
+<!-- contenu du site -->
+
+<body>
+  <!-- header -->
+  <header class="container-fluid header">
+    <div   class="container">
+
+      <a href="#" class="logo"><img  src="img/hdmat.jpg" alt="tete" /> </a>
+      <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="#">DICIPLINAS</a>
+        <a href="http://www.ibiruba.ifrs.edu.br/site/conteudo.php?cat=30&sub=95">IF MATH</a>
+        <a href="">PROFESSORES</a>
+        <a href="http://brasilescola.uol.com.br/matematica/"UOL</a>
+        <a href="https://biblioibiruba.wordpress.com/">BIBLIOTECA</a>
+        <a href="http://www.ibiruba.ifrs.edu.br/site/">IF</a>
+
+      </nav>
+    </div>
+  </header>
+  <!-- end header -->
+
+  <!--- bannier -->
+  <section class="container-fluid banner">
+    <div class="ban">
+      <img src="img/banmat.jpg" alt="baner du site " />
+    </div>
+    <div class="imer-banner">
+      <h2></h2>
+      <!---button class="btn-custom"><a href="diciple.html"></a>ENTRE</button--->
+
+    </div>
+  </section>
+  <!--- end bannier -->
+
+  <!-- a propos de moi / informação -->
+  <section id="teste" class="container-fluid about">
+    <div class="container">
+      <div class="row">
+        <h2 id="DICIPLINAS">DICIPLINAS</h2>
+        <hr class="separator">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">1 SEMESTRE</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">2 SEMESTRE</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">3 SEMESTRE</button>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+  <!-- a propos de mois -->
+  <!-- portofolio / DA  -->
+  <hr class="separator">
+
+  <ul class="pgwSlideshow">
+    <li><img src="img/kh1.jpg" alt=""></li>
+    <li><img src="img/kh2.jpg" alt=""></li>
+    <li><img src="img/kh3.jpg" alt=""></li>
+   </ul>
+
+</header>
+
+
+<hr class="separator">
+<!-- portofolio -->
+<!--- java script --->
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Script to Activate the Carousel -->
+<script src="js/pgwslideshow.js"></script>
+<script>
+$(document).ready(function() {
+    $('.pgwSlideshow').pgwSlideshow();
+
+
+});
+</script>
+<!--- endl java script -->
+
+  <!-- portofolio -->
+
+  <!-- footer / contact -->
+  <footer class="container-fluid footer">
+    <div class="container">
+              <div class="row">
+                <h2 id="contact">FaleConosco</h2>
+                <hr class="separator">
+              <div class="span6">
+              <form class="formulaircontact">
+                  <div class="controls controls-row">
+                  <input id="name" name="name" type="text" class="span3" placeholder="Name">
+                  <input id="email" name="email" type="email" class="span3" placeholder="Email address">
+                  </div>
+                  <div class="controls">
+                  <textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+                  </div>
+                  <div class="controls">
+                  <button id="contact-submit" type="submit" class="btn btn-custom input-medium pull-right">Envio</button>
+              </div>
+              </form>
+              </div>
+              </div>
+              <p>
+Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Câmpus Ibirubá
+Rua Nelsi Ribas Fritsch, 1111 | Bairro Esperança | CEP: 98200-000 | Ibirubá/RS <br>
+E-mail: comunicacao@ibiruba.ifrs.edu.br | Telefone: (54) 3324-8100
+              </p>
+    </div>
+  </footer>
+  <!-- footer -->
+
+</body>
+</html>

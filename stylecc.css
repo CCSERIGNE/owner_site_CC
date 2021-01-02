@@ -1,0 +1,166 @@
+
+@charset "UTF-8";
+
+
+/*font-family: 'Raleway', sans-serif;*/
+body,html{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+a,a:hover {
+  text-decoration: none;
+}
+.container-fluid{
+  padding: 0;
+}
+.separator {
+  height: 10px;
+  width: 40px;
+  border: none;
+  box-shadow: none;
+  background-color: green;
+}
+/*header */
+.header {
+  background-color: green;
+  height: 70px;
+  line-height: 70px;
+}
+.logo img {
+
+  height: 70px;
+  width: 250px;
+  line-height: 40px;
+}
+.menu{
+  float: right;
+}
+.menu a {
+  color: #ffffff;
+  margin-right: 30px;
+}
+.menu a:hover{
+  color: black;
+}
+.tete{
+  width: 30%;
+  max-width: 15%;
+}
+/*baner*/
+.banner{
+  width: 80%;
+  max-width: 100%;
+}
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+.ban img{
+  height: 50%;
+  width: 100%;
+  max-width: 100%;
+}
+.imer-banner{
+  position: absolute;
+  top: 30%;
+  width:80%;
+   text-align: center;
+}
+.imer-banner h2{
+  color: green;
+  text-shadow: 1px 1px 20px #ffffff;
+}
+.btn-custom{
+  background-color: green;
+  color: #ffffff;
+}
+
+/*about*/
+#DICIPLINAS{
+  padding-top: 3%;
+  text-align: center;
+  color: green;
+}
+.about article h2{
+  margin-top: 10%;
+  text-align: center;
+  background-color: green;
+  padding: 5px;
+  color: #ffffff;
+}
+.about article p{
+  text-align: center;
+}
+/*portofolio*/
+.portofolio {
+
+}
+ #IM{
+  text-align: center;
+  color: green;
+}
+.portofolio li{
+
+
+  height: 210px;
+  float: left;
+  margin-left: 10px;
+
+  padding: 1px;
+}
+.container{
+  height: 100px;
+  width: 1120px;
+  margin-bottom:  30px;
+}
+
+/*contact*/
+.footer{
+  height: 600px;
+}
+.footer p{
+  color: #098507;
+  text-align: center;
+}
+#contact{
+  color:#ffffff;
+  text-align: center;
+  background-color: green;
+}
+.formulaircontact{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+ #name{
+  height: 50px;
+  width: 500px;
+  border-color: green;
+  margin-bottom: 20px;
+
+}
+ #email{
+  height: 50px;
+  width: 500px;
+  border-color: green;
+  margin-bottom: 20px;
+}
+#message{
+  height: 200px;
+  width: 500px;
+  border-color: green;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+#contact-submit{
+  background: green;
+  height: 30px;
+  width: 70px;
+  margin-bottom: 20px;
+}
